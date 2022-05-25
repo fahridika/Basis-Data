@@ -93,7 +93,7 @@ where mainsbg.kode_film = film.kode_film;
 2)
 select mainsbg.kode_pem, film.judul, mainsbg.peran
 from mainsbg, film
-where mainsbg.kode_film = film.kode_film;
+where mainsbg.kode_film = film.kode_film
 order by mainsbg.kode_pem;
 
 3)
