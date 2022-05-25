@@ -42,3 +42,40 @@ INSERT INTO mainsbg (
   
   SELECT * FROM mainsbg;
   
+
+  
+  // Fadhil
+  1)
+select mainsbg.kode_pem, film.judul, mainsbg.peran
+from mainsbg, film
+where mainsbg.kode_film = film.kode_film;
+
+2)
+select mainsbg.kode_pem, film.judul, mainsbg.peran
+from mainsbg, film
+where mainsbg.kode_film = film.kode_film;
+order by mainsbg.kode_pem;
+
+3)
+select a.kode_pem, b.judul, a.peran
+from mainsbg a, film b
+where a.kode_film = b.kode_film;
+
+4)
+select pe.nama, fi.judul, ma.peran
+from pemeran pe, film fi, mainsbg ma
+where ma.kode_film = fi.kode_film and ma.kode_pem = pe.kode_pem;
+
+5)
+select x.nama, y.nama
+from pemeran x, pemeran y
+where x.sex = 'P' and y.sex = 'W';
+
+6)
+select p.nama, m.kode_film, m.peran
+from pemeran p inner join mainsbg m
+where p.kode_pem = m.kode_pem;
+
+7)
+select p.kode_pem, p.nama, m.kode_pem, m.kode_film
+from pemeran p natural join mainsbg m;
