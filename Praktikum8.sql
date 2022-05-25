@@ -16,3 +16,27 @@ peran Char(20) Not Null);
 
 
 // woi
+
+
+
+
+//Dimas 
+INSERT INTO mainsbg (
+  ('P0005', 'F0001', 'Nia'),
+  ('P0005', 'F0002', 'Ani'),
+  ('P0002', 'F0003', 'Tika'),
+  ('P0002', 'F0004', 'Ika'),
+  ('P0002', 'F0011', 'Putri'),
+  ('P0001', 'F0005', 'Dita'),
+  ('P0003', 'F0004', 'Dika'),
+  ('P0008', 'F0007', 'Rangga'),
+  ('P0007', 'F0009', 'Bima'),
+  ('P0007', 'F0008', 'Mentari'),
+  ('P0004', 'F0010', 'Santi'),
+  ('P0003', 'F0012', 'Sinta'),
+  ('P0003', 'F0013', 'Melani'),
+  ('P0000', 'F0014', 'Sunan Kali Jogo'),
+  ('P0001', 'F0014', 'Sunan Gunung Jati'),
+  ('P0006', 'F0015', 'Komandan'),
+  ('P0002', 'F0015', 'Pejuan 1');
+  
