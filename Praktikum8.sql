@@ -40,3 +40,5 @@ INSERT INTO mainsbg (
   ('P0006', 'F0015', 'Komandan'),
   ('P0002', 'F0015', 'Pejuan 1');
   
+  SELECT * FROM mainsbg;
+  
