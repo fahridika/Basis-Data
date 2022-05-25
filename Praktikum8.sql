@@ -18,6 +18,26 @@ peran Char(20) Not Null);
 // woi
 
 
+-- Film
+INSERT INTO film (kode_film , judul , tahun)
+    VALUES
+        ('F0001', 'Di Atas Angan', '1999'),
+        ('F0002', 'Dibawah Kolong', '1985'),
+        ('F0003', 'Embun Pagi', '1995'),
+        ('F0004', 'Perang Bintang', '1974'),
+        ('F0005', 'Pahlawan Kemerdekaan', '1989'),
+        ('F0006', 'Merdeka Atau Mati', '1993'),
+        ('F0007', 'Sera Centhini', '1992'),
+        ('F0008', 'Daun-Daun Berisik', '1990')
+        ('F0009', 'Kabut Sutra Ungu', '1987'),
+        ('F0010', 'Kaki Gunung', '1974'),
+        ('F0011', 'Titisan Dewa', '1989'),
+        ('F0012', 'Pendekar Kelana', '1974'),
+        ('F0013', 'Wali Songo', '1993'),
+        ('F0014', 'Dibawah Kabut', '1990'),
+        ('F0015', 'Serangan Umum 1 Maret', '1988');
+
+
 
 
 --Dimas Fauzan
