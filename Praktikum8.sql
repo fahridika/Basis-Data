@@ -20,7 +20,7 @@ peran Char(20) Not Null);
 
 
 
-//Dimas 
+--Dimas Fauzan
 INSERT INTO mainsbg (
   ('P0005', 'F0001', 'Nia'),
   ('P0005', 'F0002', 'Ani'),
