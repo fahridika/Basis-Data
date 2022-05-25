@@ -21,7 +21,7 @@ peran Char(20) Not Null);
 
 
 --Dimas Fauzan
-INSERT INTO mainsbg (
+insert into mainsbg (
   ('P0005', 'F0001', 'Nia'),
   ('P0005', 'F0002', 'Ani'),
   ('P0002', 'F0003', 'Tika'),
@@ -40,7 +40,7 @@ INSERT INTO mainsbg (
   ('P0006', 'F0015', 'Komandan'),
   ('P0002', 'F0015', 'Pejuan 1');
   
-  SELECT * FROM mainsbg;
+  select * from mainsbg;
   
 
   
