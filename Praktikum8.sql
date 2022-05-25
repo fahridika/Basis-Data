@@ -46,7 +46,7 @@ INSERT INTO film (kode_film , judul , tahun)
         ('F0005', 'Pahlawan Kemerdekaan', '1989'),
         ('F0006', 'Merdeka Atau Mati', '1993'),
         ('F0007', 'Sera Centhini', '1992'),
-        ('F0008', 'Daun-Daun Berisik', '1990')
+        ('F0008', 'Daun-Daun Berisik', '1990'),
         ('F0009', 'Kabut Sutra Ungu', '1987'),
         ('F0010', 'Kaki Gunung', '1974'),
         ('F0011', 'Titisan Dewa', '1989'),
