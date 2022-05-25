@@ -21,7 +21,7 @@ peran Char(20) Not Null);
 
 
 --Dimas Fauzan
-insert into mainsbg (
+insert into mainsbg values 
   ('P0005', 'F0001', 'Nia'),
   ('P0005', 'F0002', 'Ani'),
   ('P0002', 'F0003', 'Tika'),
