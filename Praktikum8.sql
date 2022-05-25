@@ -13,3 +13,6 @@ Create Table mainsbg (
 kode_pem Char(5) Unique Not Null,
 kode_film Char(5) Unique Not Null,
 peran Char(20) Not Null);
+
+
+// woi
