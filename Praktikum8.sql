@@ -1,3 +1,7 @@
+#Buatlah tabel berikut pada database ProduksiFilmnim;
+
+Create database produksifilm334204__;
+
 Create Table pemeran (
 kode_pem Char(5) Primary Key Unique Not Null,
 nama Char(20) Not Null,
