@@ -1,3 +1,5 @@
+CREATE DATABASE KRS_NAMA;
+
 CREATE TABLE mhs (
     nim CHAR(14),
     noktp CHAR(16),
