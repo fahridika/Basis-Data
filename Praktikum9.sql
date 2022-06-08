@@ -90,3 +90,11 @@ WHERE saldo > ANY (SELECT saldo FROM mhsbank);
 SELECT noktp, saldo 
 FROM mhsbank
 WHERE saldo < ALL (SELECT saldo FROM mhsbank WHERE bank = "BCA");
+
+10 / 7
+SELECT judul_buku, isbn, nama_pengarang, nama_penerbit, harga_buku, stock
+FROM tbuku_fahri s
+INNER JOIN tpenerbit a on s.id_tpenerbit = a.id_penerbit
+INNER JOIN tpengarang b on s.id_tpengarang = b.id_pengarang
+;
+
